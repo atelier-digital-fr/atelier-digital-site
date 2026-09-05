@@ -160,6 +160,19 @@ body {
     var(--surface);
 }
 
+.api-usage {
+  min-height: 0;
+  margin-top: 16px;
+}
+
+.api-usage p:not(.card-label) {
+  max-width: 850px;
+}
+
+.api-legal-links a {
+  color: var(--cyan);
+}
+
 footer {
   display: flex;
   justify-content: space-between;
